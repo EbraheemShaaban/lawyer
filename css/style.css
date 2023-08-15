@@ -1,0 +1,28 @@
+header{
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(90,168,183,0.698),rgba(90,168,183,0.698)),
+    url(../imgs/back.jpg); */
+    background-image: url(../imgs/back.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+section .price{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 18px;
+}
+section .price:hover{
+    background-color: blue;
+    color: white;
+}
+.team img{
+    border-radius: 10px;
+}
+.contact {
+    overflow: hidden;
+}
